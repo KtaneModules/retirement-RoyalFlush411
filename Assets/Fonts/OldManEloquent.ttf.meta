@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2a851a74157ba4fae8c2742a3079cc07
+timeCreated: 1541601980
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Old Man Eloquent
+  fontNames:
+  - Old Man Eloquent
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

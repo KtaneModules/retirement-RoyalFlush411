@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c3ed3e741f78549f3b761ded8e608a6c
+timeCreated: 1541616605
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Countryside
+  fontNames:
+  - Countryside
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

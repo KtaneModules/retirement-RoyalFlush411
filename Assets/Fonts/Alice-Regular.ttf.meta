@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2b1d1f09a35c847939ee2f79ac0f67c5
+timeCreated: 1541601096
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Alice
+  fontNames:
+  - Alice
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
