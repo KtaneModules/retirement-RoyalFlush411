@@ -255,4 +255,27 @@ public class retirementScript : MonoBehaviour
         displayedHomeText.text = selectedHomes[displayedHomeIndex];
         displayedHomeText.color = homeBoardColours[displayedHomeIndex];
     }
+    public string TwitchHelpMessage = "Use '!{0} cycle' to cycle between homes. To submit a home use '!{0} <Home name>'. For ex. '!{0} Homestead'. Pay attention to the capitals in the name!";
+    IEnumerator ProcessTwitchCommand(string command)
+    {
+        if (command.Equals("cycle")){
+            for(int i=1; i<=10; i++){
+                yield return cycleRight;
+                yield return new WaitForSeconds(1.0f);
+            }
+        }
+        else{
+        if(Array.IndexOf(selectedHomes, command)>-1){
+            int index = Array.IndexOf(selectedHomes, command);
+            while(displayedHomeText.text!=command){
+                yield return cycleRight;
+            }
+            yield return new WaitForSeconds(0.5f);
+            yield return retireButton;
+        }
+        else{
+            yield return null;
+        }
+        }
+    }
 }
